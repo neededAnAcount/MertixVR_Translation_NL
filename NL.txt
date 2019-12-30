@@ -43,7 +43,7 @@ addonsassetsmanager.loadingsounds=Geluiden Laden...
 addonsassetsmanager.loadingaddonname=Addon {0} laden...
 addonsassetsmanager.checkingaddon=Controle Van Vereiste Addon {0} van de {1}
 addonsassetsmanager.downloadingaddon=Downloaden addon id {0} versie {1}
-addonsassetsmanager.downloadingmap=Downloading map id {0} version {1}
+addonsassetsmanager.downloadingmap=Downloaden map id {0} versie {1}
 addonsassetsmanager.lookingformap=Zoeken naar map...
 addonsassetsmanager.loadingmap=Laden van map {0}
 addonsassetsmanager.unabletoloadmap=Kan de map niet laden: Het map bestand bevat geen gegevens voor het platform "{0}".
@@ -67,99 +67,95 @@ discord.closedalpha=Gesloten-Alpha
 connectionmanager.disconnected=Verbinding Verbroken:
 connectionmanager.unabletoconnect=Niet in staat te verbinden:
 
-
-
-
-
 # InstanceManager translations
-instancemanager.switchingtoroom=Switching to room #{0}
-instancemanager.requestingaddons=Requesting addons
+instancemanager.switchingtoroom=Overschakelen naar kamer #{0}
+instancemanager.requestingaddons=Aanvragen van add-ons
 
 # UIManager translations
-uimanager.awaitingforconnection=Awaiting for connection...
-uimanager.connectedas=Connected as {0}.
+uimanager.awaitingforconnection=wachten op verbinding...
+uimanager.connectedas=Verbonden als {0}.
 
 # Packets translations
-switchtoinstance.unabletojoinorcreate=Unable to join or create instance:
-connectionstart.checkinggameversion=Checking game version
-connectionstart.unabletologin=Unable to login:
-validategameversion.authenticating=Authenticating
-validategameversion.waitingforauth=Waiting for authentication
-validategameversion.newupdate=A new game update is available. Please install the latest version of the game to play.
+switchtoinstance.unabletojoinorcreate=Kan de instantie niet maken of eraan deelnemen:
+connectionstart.checkinggameversion=Spelversie controleren
+connectionstart.unabletologin=Niet mogelijk om in te loggen:
+validategameversion.authenticating=Verifiëren
+validategameversion.waitingforauth=Wachten op authenticatie
+validategameversion.newupdate=Er is een nieuwe game-update beschikbaar. Installeer de nieuwste versie van het spel om te spelen.
 
 # CreateInstancePanel translations
-createinstancepanel.needmap=You need to select a map to create a new instance !
-createinstancepanel.needname=You need to give a name to your instance !
-createinstancepanel.invalidmaxplayers=You need to set the maximum number of player to one or more
+createinstancepanel.needmap=U moet een map selecteren of een nieuwe instantie aanmaken !
+createinstancepanel.needname=U moet een naam geven aan de instantie !
+createinstancepanel.invalidmaxplayers=U moet het maximale aantal spelers instellen op een of meer
 
 # LoginPanel translations
-loginpanel.missingfields=Please fill all fields !
-loginpanel.openregistrationpage=The registration webpage has been opened in your browser.
-loginpanel.username=Username
-loginpanel.password=Password
+loginpanel.missingfields=Vul alstublieft alle velden in !
+loginpanel.openregistrationpage=De registratie-webpagina is geopend in uw browser.
+loginpanel.username=Gebruikersnaam
+loginpanel.password=Wachtwoord
 loginpanel.login=Login
-loginpanel.register=Register
+loginpanel.register=Registeren
 
 # HomePanel translations
-homepanel.selectmodel=Select\nModel
-homepanel.props=Props
-homepanel.browseinstances=Browse\nInstances
-homepanel.createinstance=Create\nInstance
+homepanel.selectmodel=Selecteer\nModel
+homepanel.props=Objecten
+homepanel.browseinstances=Instanties\nDoorzoeken
+homepanel.createinstance=Creër\nInstantie
 
 # InstanceBrowserPanel translations
-instancebrowserpanel.title=Instances Browser
-instancebrowserpanel.refresh=Refresh
+instancebrowserpanel.title=Instantie Browser
+instancebrowserpanel.refresh=Verversen
 instancebrowserpanel.rowtype=Type
-instancebrowserpanel.rowname=Name
+instancebrowserpanel.rowname=Naam
 instancebrowserpanel.rowmap=Map
-instancebrowserpanel.rowplayers=Players
+instancebrowserpanel.rowplayers=Spelers
 
 # SettingsPanel translations
-settingspanel.title=Settings
+settingspanel.title=Instellingen
 settingspanel.vr=VR
-settingspanel.playersize=Player Height
-settingspanel.comfortturning=Comfort Turning
-settingspanel.voice=Voice
-settingspanel.voiceactivation=Voice Activation
-settingspanel.micdevice=Microphone Device
-settingspanel.graphics=Graphics
-settingspanel.antialiasing=Anti Aliasing
-settingspanel.anisotropicfiltering=Anisotropic Filtering
-settingspanel.texturequality0=Full Resolution
-settingspanel.texturequality1=Half Resolution
-settingspanel.texturequality2=1/4 Resolution
-settingspanel.texturequality3=1/8 Resolution
-settingspanel.shadowdistance=Shadow Distance
-settingspanel.voicemode.autodetect=Auto Detect
-settingspanel.voicemode.pushtotalk=Push To Talk
-settingspanel.voicemode.always=Always Enabled
-settingspanel.realtimereflectionprobes=Realtime Reflection Probes
-settingspanel.texturequality=Texture Quality
-settingspanel.other=Other
-settingspanel.language=Language
+settingspanel.playersize=Speler Hoogte
+settingspanel.comfortturning=Comfort draaien
+settingspanel.voice=Spraak
+settingspanel.voiceactivation=Spraakactivering
+settingspanel.micdevice=Microfoon Apparaat
+settingspanel.graphics=Graphisch
+settingspanel.antialiasing=Anti-Aliasing
+settingspanel.anisotropicfiltering=Anisotropisch Filteren
+settingspanel.texturequality0=Volledige Resolutie
+settingspanel.texturequality1=Halve Resolutie
+settingspanel.texturequality2=1/4 Resolutie
+settingspanel.texturequality3=1/8 Resolutie
+settingspanel.shadowdistance=Shaduw Afstand
+settingspanel.voicemode.autodetect=Automatische Detectie
+settingspanel.voicemode.pushtotalk=Druk om te Praten
+settingspanel.voicemode.always=Altijd Ingeschakeld
+settingspanel.realtimereflectionprobes=Live Reflectie Probes
+settingspanel.texturequality=Textuur Kwaliteit
+settingspanel.other=Andere
+settingspanel.language=Taal
 
 # CreateInstancePanel translations
-createinstancepanel.selectmap=Select Map
-createinstancepanel.instancename=Instance name
-createinstancepanel.maxplayers=Max Players:
-createinstancepanel.password=Password (optional)
-createinstancepanel.createandjoin=Create and Join
+createinstancepanel.selectmap=Selecteer Map
+createinstancepanel.instancename=Instanstie naam
+createinstancepanel.maxplayers=Maximale Spelers:
+createinstancepanel.password=Wachtwoord (optioneel)
+createinstancepanel.createandjoin=Maak en speel
 
 # ServerInfoPanel translations
-panelserverinfo.connect=Connect
-panelserverinfo.password=Password
+panelserverinfo.connect=Verbinden
+panelserverinfo.password=Wachtwoord
 
 # MapBrowserPanel translations
 mapbrowserpanel.title=Map Browser
 mapbrowserpanel.filter=Filter:
-mapbrowserpanel.name=Name
-mapbrowserpanel.author=Author
-mapbrowserpanel.search=Search
-mapbrowserpanel.use=Use selected map
+mapbrowserpanel.name=Naam
+mapbrowserpanel.author=Auteur
+mapbrowserpanel.search=zoeken
+mapbrowserpanel.use=Geselecteerde map gebruiken
 
 
 # (Wearable)ModelBrowserPanel translations
-modelbrowserpanel.title=Model Browser
+modelbrowserpanel.title=Modellen Browser
 wearablemodelbrowserpanel.title=Draagbare modellen
 modelbrowserpanel.refresh=Herladen
 modelbrowserpanel.featured=Aanbevolen
@@ -167,7 +163,7 @@ modelbrowserpanel.owned=Mijn
 modelbrowserpanel.shared=Gedeeld
 modelbrowserpanel.all=Alles
 modelbrowserpanel.spawn=Geselecteerd model spawnen
-wearablemodelbrowserpanel.wear=Wear selected model
+wearablemodelbrowserpanel.wear=Geselecteerd model dragen
 
 # Keyboard warning translation
-keyboard.warning=This keyboard is currently not finished.\nPlease use your physical keyboard for the missing keys.
+keyboard.warning=Dit toetsenbord is momenteel niet klaar.\n Gebruik uw fysieke toetsenbord voor de ontbrekende toetsen.
