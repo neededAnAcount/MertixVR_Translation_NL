@@ -1,0 +1,173 @@
+#########################################################################################################################################
+# The starting word is always singular and whithout determinant.                                                                        #
+# The available word types are: plur (plurial), singa (singular starting with "a"), plura (plurial starting with "a"), singthe, plurthe #
+# line break are also available as "\n"                                                                                                 #
+#########################################################################################################################################
+
+
+# Generic translations, used in many places
+exitgame=Spel verlaten
+server=server
+instance=Instantsie
+close=Sluiten
+cancel=Annuleren
+apply=Aanpassen
+settings=Instellingen
+public=openbaar[singa]een openbare
+private=privé[singa]een privé
+enabled=ingeshakeld
+disabled=uitgeschakeld
+auto=Automatisch
+always=Altijd
+left=Links
+right=Rechts
+
+# MainManagerComponent translations
+mainmanagercomponent.inittrackingmanager=Tracking Manager Initialiseren ...
+mainmanagercomponent.inituimanager=UI Manager Initialiseren ...
+mainmanagercomponent.initsettings=Instellingen Laden...
+mainmanagercomponent.initdiscord=Discord RichPresence Starten
+mainmanagercomponent.initcontrolsmanager=Besturing Manager Initialiseren...
+mainmanagercomponent.initentitymanager=Initializing Entity Manager...
+mainmanagercomponent.initvoicechatmanager=Initializing VoiceChat Manager...
+mainmanagercomponent.errorstarting=Fout Tijdens Het Starten Van Het Spel:
+mainmanagercomponent.loadingaddons=Addons Laden...
+mainmanagercomponent.registeringpackets=Netwerkpakketten Registreren...
+mainmanagercomponent.connectingtohub=Verbinden met de Hub...
+
+# AddonsAssetsManager translations
+addonsassetsmanager.loadingaddons=Addons Laden...
+addonsassetsmanager.loadingmodels=Modellen Laden...
+addonsassetsmanager.loadingmaps=Mappen Laden...
+addonsassetsmanager.loadingsounds=Geluiden Laden...
+addonsassetsmanager.loadingaddonname=Addon {0} laden...
+addonsassetsmanager.checkingaddon=Controle Van Vereiste Addon {0} van de {1}
+addonsassetsmanager.downloadingaddon=Downloaden addon id {0} versie {1}
+addonsassetsmanager.downloadingmap=Downloading map id {0} version {1}
+addonsassetsmanager.lookingformap=Zoeken naar map...
+addonsassetsmanager.loadingmap=Laden van map {0}
+addonsassetsmanager.unabletoloadmap=Kan de map niet laden: Het map bestand bevat geen gegevens voor het platform "{0}".
+addonsassetsmanager.errordownloadingmap=Fout tijdens het downloaden van map:
+addonsassetsmanager.errorloadingmap=Een fout is opgetreden tijdens het laden van map
+addonsassetsmanager.sendingclientdata=Client data verzenden
+addonsassetsmanager.receivedaddon={0} Addons ontvangen
+addonsassetsmanager.receivedaddonUnknownTarget={0} van de {1} Addons ontvangen
+addonsassetsmanager.requestingscripts=Scripts Aanvragen
+addonsassetsmanager.receivedscript={0} Scripts ontvangen
+addonsassetsmanager.receivedscriptUnknownTarget={0} van de {1} Scripts ontvangen
+addonsassetsmanager.requestingmap=map aanvragen
+
+# Discord translations
+discord.startinggame=Spel starten
+discord.in=In {0:singa} {1} # 0 = public/private, 1 = instance
+discord.internalalpha=Interne-Alpha
+discord.closedalpha=Gesloten-Alpha
+
+# ConnectionManager translations
+connectionmanager.disconnected=Verbinding Verbroken:
+connectionmanager.unabletoconnect=Niet in staat te verbinden:
+
+
+
+
+
+# InstanceManager translations
+instancemanager.switchingtoroom=Switching to room #{0}
+instancemanager.requestingaddons=Requesting addons
+
+# UIManager translations
+uimanager.awaitingforconnection=Awaiting for connection...
+uimanager.connectedas=Connected as {0}.
+
+# Packets translations
+switchtoinstance.unabletojoinorcreate=Unable to join or create instance:
+connectionstart.checkinggameversion=Checking game version
+connectionstart.unabletologin=Unable to login:
+validategameversion.authenticating=Authenticating
+validategameversion.waitingforauth=Waiting for authentication
+validategameversion.newupdate=A new game update is available. Please install the latest version of the game to play.
+
+# CreateInstancePanel translations
+createinstancepanel.needmap=You need to select a map to create a new instance !
+createinstancepanel.needname=You need to give a name to your instance !
+createinstancepanel.invalidmaxplayers=You need to set the maximum number of player to one or more
+
+# LoginPanel translations
+loginpanel.missingfields=Please fill all fields !
+loginpanel.openregistrationpage=The registration webpage has been opened in your browser.
+loginpanel.username=Username
+loginpanel.password=Password
+loginpanel.login=Login
+loginpanel.register=Register
+
+# HomePanel translations
+homepanel.selectmodel=Select\nModel
+homepanel.props=Props
+homepanel.browseinstances=Browse\nInstances
+homepanel.createinstance=Create\nInstance
+
+# InstanceBrowserPanel translations
+instancebrowserpanel.title=Instances Browser
+instancebrowserpanel.refresh=Refresh
+instancebrowserpanel.rowtype=Type
+instancebrowserpanel.rowname=Name
+instancebrowserpanel.rowmap=Map
+instancebrowserpanel.rowplayers=Players
+
+# SettingsPanel translations
+settingspanel.title=Settings
+settingspanel.vr=VR
+settingspanel.playersize=Player Height
+settingspanel.comfortturning=Comfort Turning
+settingspanel.voice=Voice
+settingspanel.voiceactivation=Voice Activation
+settingspanel.micdevice=Microphone Device
+settingspanel.graphics=Graphics
+settingspanel.antialiasing=Anti Aliasing
+settingspanel.anisotropicfiltering=Anisotropic Filtering
+settingspanel.texturequality0=Full Resolution
+settingspanel.texturequality1=Half Resolution
+settingspanel.texturequality2=1/4 Resolution
+settingspanel.texturequality3=1/8 Resolution
+settingspanel.shadowdistance=Shadow Distance
+settingspanel.voicemode.autodetect=Auto Detect
+settingspanel.voicemode.pushtotalk=Push To Talk
+settingspanel.voicemode.always=Always Enabled
+settingspanel.realtimereflectionprobes=Realtime Reflection Probes
+settingspanel.texturequality=Texture Quality
+settingspanel.other=Other
+settingspanel.language=Language
+
+# CreateInstancePanel translations
+createinstancepanel.selectmap=Select Map
+createinstancepanel.instancename=Instance name
+createinstancepanel.maxplayers=Max Players:
+createinstancepanel.password=Password (optional)
+createinstancepanel.createandjoin=Create and Join
+
+# ServerInfoPanel translations
+panelserverinfo.connect=Connect
+panelserverinfo.password=Password
+
+# MapBrowserPanel translations
+mapbrowserpanel.title=Map Browser
+mapbrowserpanel.filter=Filter:
+mapbrowserpanel.name=Name
+mapbrowserpanel.author=Author
+mapbrowserpanel.search=Search
+mapbrowserpanel.use=Use selected map
+
+
+# (Wearable)ModelBrowserPanel translations
+modelbrowserpanel.title=Model Browser
+wearablemodelbrowserpanel.title=Draagbare modellen
+modelbrowserpanel.refresh=Herladen
+modelbrowserpanel.featured=Aanbevolen
+modelbrowserpanel.owned=Mijn
+modelbrowserpanel.shared=Gedeeld
+modelbrowserpanel.all=Alles
+modelbrowserpanel.spawn=Geselecteerd model spawnen
+wearablemodelbrowserpanel.wear=Wear selected model
+
+# Keyboard warning translation
+keyboard.warning=This keyboard is currently not finished.\nPlease use your physical keyboard for the missing keys.
